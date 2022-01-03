@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
 
 *{
     margin: 0;
@@ -13,7 +15,7 @@
 .sidebar{
     background-color: rgb(212, 208, 208);
     width: 434px;
-    font-family: 'Licorice', cursive;
+    font-family: 'Cinzel', serif;
     height: 100vh;
 }
 
@@ -32,7 +34,12 @@
     color: black;
 }
 
-.circular--square { padding-right: 0q; }
+.circular--square img{ 
+    margin-left: 0px; 
+    margin-right: 0px;
+    float: right;
+    padding-top: 0px ;
+ }
 
 .col-md-4 h3{
     margin: 0px;
@@ -60,6 +67,7 @@
 
 .container{
     display: flex;
+    background-color: #FEECE9;
 }
 
 .infoContainer{
@@ -196,8 +204,8 @@
 }
 
 .skillsContainer{
-    /* background-color: #DEF2F1; */
-    height: 48vh;
+    background-color: #DEF2F1; 
+    height: 100vh;
 
 }
 
@@ -207,7 +215,7 @@
 }
 .skillHead{
     margin: 20px;
-    padding: 0 50px;
+    padding: 0 50px; 
     padding-top: 5px;
     font-family: 'Source Code Pro', monospace;
     
@@ -256,3 +264,37 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+  
+  
+
+.section-title h2{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.section-title p{
+    margin: 10px;
+    padding: 3px;
+    padding-top: 5px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.basicDetails p{
+    margin-left: -170px; 
+    margin-right: 50px;
+    float: right;
+    padding-top: 510px ;
+}
